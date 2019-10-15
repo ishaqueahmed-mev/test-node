@@ -4,7 +4,7 @@ const cors = require('cors')
 
 app.use(cors())
 
-app.get('/', (req, res) => {
+app.get('/api/home', (req, res) => {
   res.send({ message: 'YOU COME AT THE KING, BEST NOT MISS' })
 })
 
